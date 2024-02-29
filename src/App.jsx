@@ -1,13 +1,18 @@
 import React from "react";
 import "./App.css";
-import Navbar from "./Components/Navbar";
-import Hero from "./Components/Hero";
+
+import Products from "./Components/ecommercePages/Products";
+import EcommerceHero from "./Components/ecommercePages/Hero";
+import FooterEcommerce from "./Components/ecommercePages/FooterEcommerce";
+import Ecommerce from "./Components/ecommercePages/Ecommerce";
 function App() {
   return (
     <>
       <div className="App">
-        <Navbar />
-        <Hero />
+        <Ecommerce />
+        <EcommerceHero />
+        <Products />
+        <FooterEcommerce />
       </div>
     </>
   );
